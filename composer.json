@@ -1,0 +1,20 @@
+{
+    "name": "techwilk/twig-slim-csrf",
+    "description": "TWIG extension to expose Slim CSRF values in templates.",
+    "keywords": ["twig","extension","csrf", "key", "value", "globals"],
+    "homepage": "https://github.com/TechWilk/twig-slim-csrf",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christopher Wilkinson",
+            "email": "git@wilk.tech"
+        }
+    ],
+    "require": {
+        "twig/twig": "~1.27|~2.0"
+    },
+    "autoload": {
+        "psr-0": { "TechWilk": "src/" }
+    }
+}
