@@ -3,9 +3,10 @@
 namespace TechWilk\Twig\Extension;
 
 use Slim\Csrf\Guard;
+use Twig\Extension\AbstractExtension;
+use Twig\Extension\GlobalsInterface;
 
-class SlimCsrf extends \Twig_Extension implements \Twig_Extension_GlobalsInterface
-{
+class SlimCsrf extends AbstractExtension implements GlobalsInterface{
 
     /**
      * @var \Slim\Csrf\Guard
